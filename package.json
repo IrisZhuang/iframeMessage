@@ -1,0 +1,28 @@
+{
+  "name": "rc-message",
+  "version": "1.0.0",
+  "description": "兼容ie6/7/8/9 的iframe通行",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --m=umd src/ -d dest",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moxhuis/iframeMessage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moxhuis/iframeMessage/issues"
+  },
+  "homepage": "https://github.com/moxhuis/iframeMessage#readme",
+  "dependencies": {
+    "babel": "^6.23.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
